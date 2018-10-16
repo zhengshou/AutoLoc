@@ -1,5 +1,5 @@
 # AutoLoc
-Placeholder for the code of our ECCV'18 paper.
+Placeholder for the code of our ECCV'18 paper. Will release probably by the end of this year. Thanks.
 
 ### Citing
 If you find AutoLoc useful, please consider citing:
