@@ -15,6 +15,6 @@ If you find AutoLoc or pre-extracted features useful, please consider citing:
 
 If you are willing to extract features by yourself, note that for experiments on AN v1.2, please refer to https://github.com/wanglimin/UntrimmedNet/issues/16 to find UntrimmedNet pre-trained model on train set. Models released here http://mmlab.siat.ac.cn/untrimmednet_model/ were trained on train+val set.
 
-Alternatively, we release our extracted features publicly.
+Alternatively, we release our extracted features for public downloading.
 
 TH'14: [Baidu cloud](); AN v1.2: [Baidu cloud]() 
