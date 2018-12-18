@@ -1,5 +1,4 @@
 # AutoLoc
-Placeholder for the code of our ECCV'18 paper. Code will be released probably by the end of this year. Thanks.
 
 ### Citing
 If you find AutoLoc or pre-extracted features useful, please consider citing:
@@ -11,6 +10,9 @@ If you find AutoLoc or pre-extracted features useful, please consider citing:
       year={2018}
     }
 
+### Installation
+This code has been tested with NVIDIA Titan X GPU of 12GB memory, CUDA 8.0, caffe. Please use "Issues" to ask questions or report bugs. Thanks.
+
 ### Feature extraction
 
 If you are willing to extract features by yourself, note that for experiments on AN v1.2, please refer to https://github.com/wanglimin/UntrimmedNet/issues/16 to find UntrimmedNet pre-trained model on train set. Models released here http://mmlab.siat.ac.cn/untrimmednet_model/ were trained on train+val set.
@@ -18,3 +20,6 @@ If you are willing to extract features by yourself, note that for experiments on
 Alternatively, we release our extracted features for public downloading.
 
 TH'14: [Baidu cloud](); AN v1.2: [Baidu cloud]() 
+
+Data structure:
+0. change to demo directory: `cd ./demo/`.
