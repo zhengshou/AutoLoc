@@ -32,3 +32,13 @@ Details of the above features:
     - All videos within each subset have stacked into one whole file, i.e. `test.all.tsv` and `val.all.tsv`.
 1. Put `AN.tar.gz` under `./data/AN/`; `cd ./data/AN/`; `tar -xzvf AN.tar.gz -C ./`; features are contained in the `att_unfused_onlytrain/` folder
 2. We follow UntrimmedNet to extract feature every 15 frames.
+
+### Overview of AutoLoc code structure
+
+0. `data/`: contains TH'14 and AN datasets
+1. `exp/`: scripts for running experiments and our trained model and testing results etc. 
+2. `lib/`: core code of AutoLoc.
+3. `tools/`: tools for launching AutoLoc and evaluating results. Note that `proc_net.py` takes a whole set of videos as input and thus usually is used for training. `proc_prll_net.py` can launch multiple concurrent processes that each of them only takes one single video as input and thus usually is used for testing so that making predictions for each video in parallel to speedup.
+
+### Running AutoLoc
+
