@@ -23,6 +23,7 @@ TH'14: [OneDrive](), [BaiduCloud To-do](); AN v1.2: [OneDrive](), [BaiduCloud To
 
 Details of the above features:
 
-0. put `TH14.tar.gz` under `./data/TH14/`; `cd ./data/TH14/`; `tar -xzvf TH14.tar.gz -C ./`; features are contained in `att_unfused/` folder
-1. put `AN.tar.gz` under `./data/AN/`; `cd ./data/AN/`; `tar -xzvf AN.tar.gz -C ./`; features are contained in `att_unfused_onlytrain/` folder
-2. each video has one corresponding 
+0. put `TH14.tar.gz` under `./data/TH14/`; `cd ./data/TH14/`; `tar -xzvf TH14.tar.gz -C ./`; features are contained in the `att_unfused/` folder. In `att_unfused/`:
+    - Each video
+    - all
+1. put `AN.tar.gz` under `./data/AN/`; `cd ./data/AN/`; `tar -xzvf AN.tar.gz -C ./`; features are contained in the `att_unfused_onlytrain/` folder
