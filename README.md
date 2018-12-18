@@ -19,7 +19,10 @@ If you are willing to extract features by yourself, note that for experiments on
 
 Alternatively, we release our extracted features for public downloading.
 
-TH'14: [Onedrive](), [Baidu Cloud To-do](); AN v1.2: [Onedrive](), [Baidu Cloud To-do]() 
+TH'14: [OneDrive](), [BaiduCloud To-do](); AN v1.2: [OneDrive](), [BaiduCloud To-do]() 
 
-Data structure:
-0. change to demo directory: `cd ./demo/`.
+Details of the above features:
+
+0. put `TH14.tar.gz` under `./data/TH14/`; `cd ./data/TH14/`; `tar -xzvf TH14.tar.gz -C ./`; features are contained in `att_unfused/` folder
+1. put `AN.tar.gz` under `./data/AN/`; `cd ./data/AN/`; `tar -xzvf AN.tar.gz -C ./`; features are contained in `att_unfused_onlytrain/` folder
+2. each video has one corresponding 
