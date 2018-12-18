@@ -11,7 +11,7 @@ If you find AutoLoc or pre-extracted features useful, please consider citing:
     }
 
 ### Installation
-This code has been tested with NVIDIA Titan X GPU of 12GB memory, CUDA 8.0, caffe. Please use "Issues" to ask questions or report bugs. Thanks.
+This code has been tested with NVIDIA Titan X GPU of 12GB memory, CUDA 8.0, caffe python interface (not included in this repo yet, please set up first), python2, python libs specified in requirements.txt. Please use "Issues" to ask questions or report bugs. Thanks.
 
 ### Feature extraction
 
@@ -41,4 +41,4 @@ Details of the above features:
 3. `tools/`: tools for launching AutoLoc and evaluating results. Note that `proc_net.py` takes a whole set of videos as input and thus usually is used for training. `proc_prll_net.py` can launch multiple concurrent processes that each of them only takes one single video as input and thus usually is used for testing so that making predictions for each video in parallel to speedup.
 
 ### Running AutoLoc
-
+Under the root directory of this repo, run `python exp/TH14/run.py` for experiments on TH'14 and `python exp/AN/run.py` for experiments on AN v1.2.
