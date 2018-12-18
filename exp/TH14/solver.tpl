@@ -1,0 +1,13 @@
+net: "exp/<dataset>/<exp>/proto/train<infix>.prototxt"
+base_lr: <base_lr>
+display: 1
+lr_policy: "step"
+gamma: 0.1
+momentum: 0
+weight_decay: 0.0005
+stepsize: 200
+snapshot: 200
+snapshot_prefix: "exp/<dataset>/<exp>/snapshot/autoloc<infix>"
+average_loss: 1
+iter_size: 1
+random_seed: 123

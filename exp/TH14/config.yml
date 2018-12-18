@@ -1,0 +1,38 @@
+GPU_ID: 0
+BASE_LR: 0.001
+MAX_ITER: 200
+FEAT:
+    MODE: "mask"
+    ACTIVATION: "relu"
+    NORM: false
+    THRESH: 7
+LSPEC:
+    OIC_POS_OPT: 'mlt'
+    OIC_ANC_OPT: 'ref'
+VIZ:
+    PLOT_ITVL: 25
+    PLOT_PR_CURVE: true
+    STAGE: "test"
+TRAIN:
+    DATA_FILE: "att_unfused/test.all.tsv"
+    STAGE: "test"
+    ANCHOR_SCALES: [1, 2, 4, 8, 16, 32]
+    FG_THRESH: 0.1
+    OIC_LOSS_THRESH: 0.7
+    NMS_BBOX_THRESH: 0.4
+    OIC_CLS_TOPK: -1
+TEST:
+    DATA_FILE: "att_unfused/test.all.tsv"
+    STAGE: "test"
+    ANCHOR_SCALES: [1, 2, 4, 8, 16, 32]
+    FG_THRESH: 0.1
+    OIC_LOSS_THRESH: 0.7
+    NMS_BBOX_THRESH: 0.4
+    OIC_CLS_TOPK: 2
+EVAL:
+    TRAIN_ADAPTIVE_NMS: false
+    TRAIN_ADAPTIVE_NMS_SHIFT: 0.1
+    TEST_ADAPTIVE_NMS: false
+    TEST_ADAPTIVE_NMS_SHIFT: 0.1
+    TIOU_THRESH: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+    TBL_INCLUDE_CLS: false
