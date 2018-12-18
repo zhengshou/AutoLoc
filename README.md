@@ -23,7 +23,7 @@ TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogA3Vr1Yacs8i9QTA), [BaiduClo
 
 Details of the above features:
 
-0. put `TH14.tar.gz` under `./data/TH14/`; `cd ./data/TH14/`; `tar -xzvf TH14.tar.gz -C ./`; features are contained in the `att_unfused/` folder. In `att_unfused/`:
+0. Put `TH14.tar.gz` under `./data/TH14/`; `cd ./data/TH14/`; `tar -xzvf TH14.tar.gz -C ./`; features are contained in the `att_unfused/` folder. In `att_unfused/`:
     - Each video has one individual tsv file storing features.
     - Each row in tsv represents features of one whole video. Each row sequentially contains: video id, class label, feature, class activation, attention score.
     - For feature, class activations, attention score, values are separated by `;` and data corresponding to each frame are concatenated sequentially.
