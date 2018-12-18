@@ -17,5 +17,4 @@ If you are willing to extract features by yourself, note that for experiments on
 
 Alternatively, we release our extracted features publicly.
 
-TH'14: [Baidu cloud]() 
-AN v1.2: [Baidu cloud]() 
+TH'14: [Baidu cloud](); AN v1.2: [Baidu cloud]() 
