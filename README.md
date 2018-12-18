@@ -17,7 +17,7 @@ This code has been tested with NVIDIA Titan X GPU of 12GB memory, CUDA 8.0, caff
 
 If you are willing to extract features by yourself, note that for experiments on AN v1.2, please refer to https://github.com/wanglimin/UntrimmedNet/issues/16 to find UntrimmedNet pre-trained model on train set. Models released here http://mmlab.siat.ac.cn/untrimmednet_model/ were trained on train+val set.
 
-Alternatively, we release our extracted features for public downloading.
+Alternatively, we release our extracted features for public downloading. We follow UntrimmedNet to extract feature every 15 frames.
 
 TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogA3Vr1Yacs8i9QTA), [BaiduCloud To-do](); AN v1.2: [OneDrive](), [BaiduCloud To-do]() 
 
