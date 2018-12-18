@@ -1,0 +1,8 @@
+*.pyc
+**/__pycache__/
+
+data/
+exp/
+
+*.pc
+*.tsv
