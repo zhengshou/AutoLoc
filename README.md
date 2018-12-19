@@ -11,7 +11,7 @@ If you find AutoLoc or pre-extracted features useful, please consider citing:
     }
 
 ### Installation
-This code has been tested with NVIDIA Titan X GPU of 12GB memory, Ubuntu 14.04, CUDA 8.0, CUDNN v5, caffe python interface (not included in this repo yet, please set up first), python2, python libs specified in requirements.txt. Please use "Issues" to ask questions or report bugs. Thanks.
+This code has been tested with NVIDIA Titan X GPU of 12GB memory, Ubuntu 14.04, CUDA 8.0, cuDNN v5, caffe python interface (not included in this repo yet, please set up first), python2, python libs specified in requirements.txt. Please use "Issues" to ask questions or report bugs. Thanks.
 
 ### Feature extraction
 
