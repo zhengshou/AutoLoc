@@ -19,7 +19,7 @@ If you are willing to extract features by yourself, note that for experiments on
 
 Alternatively, we release our extracted features for public downloading.
 
-TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogA3Vr1Yacs8i9QTA), [BaiduCloud](https://pan.baidu.com/s/1ussSNpI1nsXc7TpuT7inVA); AN v1.2: [OneDrive split00](), [OneDrive split01](), [BaiduCloud split00](), [BaiduCloud split01]() 
+TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogA3Vr1Yacs8i9QTA), [BaiduCloud](https://pan.baidu.com/s/1ussSNpI1nsXc7TpuT7inVA); AN v1.2: [OneDrive split00](https://1drv.ms/u/s!ArlzSZKcWKazgp5FM6y2iobsjAhEJA), [OneDrive split01](https://1drv.ms/u/s!ArlzSZKcWKazgp5GrwmauQHVSOvTvA), [BaiduCloud split00](), [BaiduCloud split01]() 
 
 Details of the above features:
 
@@ -31,7 +31,7 @@ Details of the above features:
     - Likewise, class activation has dimension `num of frames (T) x 2 x num of classes (K)`. The first half K is temporal (score after softmax over classes) and the second half is spatial. Attention score has dimension `num of frames (T) x 2 (temporal attention, spatial attention)`.
     - All videos within each subset have stacked into one whole file, i.e. `test.all.tsv` and `val.all.tsv`.
 1. For AN:
-    - Due to the storage limit, I have first splited `AN.tar.gz` into `AN.tar.gz.split00` and `AN.tar.gz.split01` using `split -d -b 19G AN.tar.gz AN.tar.gz.split`. Thus after downloading the above splited files, the user needs to first merge them via `cat AN.tar.gz.split00 AN.tar.gz.split01 > AN.tar.gz`: 
+    - Due to the storage limit, on OneDrive, I have first splited `AN.tar.gz` into `AN.tar.gz.split00` and `AN.tar.gz.split01` using `split -d -b 19G AN.tar.gz AN.tar.gz.split`. Thus after downloading the above splited files, the user needs to first merge them via `cat AN.tar.gz.split00 AN.tar.gz.split01 > AN.tar.gz`; for Baidu Cloud, more splits have been used.
     - Put `AN.tar.gz` under `./data/AN/`; `cd ./data/AN/`; `tar -xzvf AN.tar.gz -C ./`; features are contained in the `att_unfused_onlytrain/` folder
 2. We follow UntrimmedNet to extract feature every 15 frames.
 
