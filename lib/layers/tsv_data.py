@@ -105,7 +105,13 @@ class TSVVideoDataLayer(caffe.Layer):
     def setup(self, bottom, top):
         assert len(top) == 6, 'requires 6 top blobs'
 
-        phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        #phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        if self.phase == 0:
+            phase_key = 'TRAIN'
+            print 'phase_key: ' + phase_key
+        if self.phase == 1:
+            phase_key =  'TEST'
+            print 'phase_key: ' + phase_key
 
         self._num_classes = cfg.NUM_CLASSES
         self._num_feat = cfg.NUM_FEAT

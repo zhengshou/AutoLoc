@@ -18,7 +18,9 @@ class BboxTransformLayer(caffe.Layer):
         assert len(bottom) == 1,    'requires 1 bottom blob'
         assert len(top) == 1,       'requires 1 top blob'
 
-        phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        #phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        if self.phase == 0: phase_key = 'TRAIN'
+        if self.phase == 1: phase_key =  'TEST'
 
         self._anchors = generate_anchors(base_size=1,
                                          scales=np.array(
@@ -116,7 +118,9 @@ class BboxInflateRatioMinLayer(caffe.Layer):
         assert len(bottom) == 1,    'requires 1 bottom blob'
         assert len(top) == 1,       'requires 1 top blob'
 
-        phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        #phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        if self.phase == 0: phase_key = 'TRAIN'
+        if self.phase == 1: phase_key =  'TEST'
 
         self._outer_inflate_ratio = cfg[phase_key].OUTER_INFLATE_RATIO
         self._outer_min = cfg[phase_key].OUTER_MIN
@@ -161,7 +165,9 @@ class BboxClipKeepGradMgLayer(caffe.Layer):
         assert len(bottom) == 2, 'requires 2 bottom blobs: bbox and v_info'
         assert len(top) == 1, 'requires 1 top blobs: bbox'
 
-        phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        #phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        if self.phase == 0: phase_key = 'TRAIN'
+        if self.phase == 1: phase_key =  'TEST'
 
         assert hasattr(self, 'param_str'), 'requires param_str'
         params = json.loads(self.param_str)

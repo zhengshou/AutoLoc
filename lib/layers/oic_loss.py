@@ -31,7 +31,9 @@ class OuterInnerContrastiveLossLayer(caffe.Layer):
         assert len(bottom) == 6,    'requires 6 bottom blobs'
         assert len(top) == 3,       'requires 2 top blobs'
 
-        self._phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        #self._phase_key = str(self.phase) # either 'TRAIN' or 'TEST'
+        if self.phase == 0: self._phase_key = 'TRAIN'
+        if self.phase == 1: self._phase_key =  'TEST'
 
         self._stage = cfg[self._phase_key].STAGE
         self._scale = cfg[self._phase_key].FEAT_SCALE
