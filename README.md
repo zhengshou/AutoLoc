@@ -13,7 +13,7 @@ If you find AutoLoc or pre-extracted features useful, please consider citing:
 ### Installation
 This code has been tested with NVIDIA Titan X GPU of 12GB memory, Ubuntu 14.04, CUDA 8.0, cuDNN v5, caffe python interface, python2, python libs specified in requirements.txt. Please use "Issues" to ask questions or report bugs. Thanks.
 
-For caffe, originally I was using MS internal caffe, but in order to publish this code repo, I have tested it with bvlc official caffe. I modified its python interface a little bit regarding the logging part and my customized bvlc caffe has been provided in this repo as well. Note that in order to install it, just need to follow the instructions on the official bvlc caffe website. Please refer any issues of setting up caffe on their venue. Basically the needed procedure is: `cd bvlc_caffe`; prepare your Makefile.config with WITH_PYTHON_LAYER=1 enabled; `make all`; `make pycaffe`.
+For caffe, originally I was using MS internal caffe, but in order to publish this code repo, I have tested it with bvlc official caffe. I modified its python interface a little bit regarding the logging part and my customized bvlc caffe has been provided in this repo as well. Note that in order to install it, just need to follow the instructions on the official bvlc caffe website. Please refer any issues of setting up caffe on their venue. Basically the needed procedure is: `cd bvlc_caffe`; prepare your Makefile.config with WITH_PYTHON_LAYER=1 enabled; `make all`; `make pycaffe`; `export PYTHONPATH=/your_bvlc_caffe_path/python:$PYTHONPATH`.
     
 ### Feature extraction
 
