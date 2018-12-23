@@ -57,4 +57,12 @@ Under the root directory of this repo, run `python exp/TH14/release/run.py` for 
 
 ### Benchmarking
 
+THUMOS'14:
+
+methods     | 0.3 | 0.4 | 0.5 | 0.6 | 0.7
+---------|--------|-----|--------|-----|-----
+Sun et al.     | 8.5 | 5.2 | 4.4 | - | -
+Hide-and-Seek     | 19.5 | 12.7 | 6.8 | - | -
+UntrimmedNet     | 28.2 | 21.1 | 13.7 | - | -
+AutoLoc     | 35.8 | 29.0 | 21.2 | 13.4 | 5.8
 
