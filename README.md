@@ -59,10 +59,16 @@ Under the root directory of this repo, run `python exp/TH14/release/run.py` for 
 
 THUMOS'14:
 
-methods     | 0.3 | 0.4 | 0.5 | 0.6 | 0.7
+IoU     | 0.3 | 0.4 | 0.5 | 0.6 | 0.7
 ---------|--------|-----|--------|-----|-----
 [Sun et al.](https://arxiv.org/abs/1504.00983)     | 8.5 | 5.2 | 4.4 | - | -
 [Hide-and-Seek](https://arxiv.org/abs/1704.04232)     | 19.5 | 12.7 | 6.8 | - | -
 [UntrimmedNet](https://arxiv.org/abs/1703.03329)     | 28.2 | 21.1 | 13.7 | - | -
 AutoLoc (Ours)     | 35.8 | 29.0 | 21.2 | 13.4 | 5.8
 
+AN:
+
+IoU     | 0.5| 0.55| 0.6| 0.65| 0.7| 0.75| 0.8| 0.85| 0.9| 0.95| Avg
+---------|----|-----|---|-----|-----|---|---|---|---|---|--
+[UntrimmedNet](https://arxiv.org/abs/1703.03329)     | 7.4 | 6.1  | 5.2 |  4.5 |  3.9  | 3.2  | 2.5  | 1.8 |  1.2  | 0.7  | 3.6
+AutoLoc (Ours)     | 27.3  | 24.9  | 22.5 |  19.9 |  17.5 |  15.1 |  13.0 |  10.0 |  6.8 |  3.3 |  16.0
