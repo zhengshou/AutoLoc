@@ -55,7 +55,7 @@ Details of the above features:
 ### Running AutoLoc
 Under the root directory of this repo, run `python exp/TH14/release/run.py` for experiments on TH'14 and `python exp/AN/release/run.py` for experiments on AN v1.2. These scripts run training first and then run testing. In these scripts, `num_process` can be used to set the number of processes to be launched during the parallel testing.
 
-### Benchmarking
+### Results
 
 THUMOS'14 train on the val set and test on the testing set:
 
