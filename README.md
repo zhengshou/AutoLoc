@@ -57,7 +57,7 @@ Under the root directory of this repo, run `python exp/TH14/release/run.py` for 
 
 ### Results
 
-THUMOS'14 train on the val set and test on the testing set:
+THUMOS'14 train on the val set and test on the testing set (mAP):
 
 IoU     | 0.3 | 0.4 | 0.5 | 0.6 | 0.7
 ---------|--------|-----|--------|-----|-----
@@ -66,7 +66,7 @@ IoU     | 0.3 | 0.4 | 0.5 | 0.6 | 0.7
 [UntrimmedNet](https://arxiv.org/abs/1703.03329)     | 28.2 | 21.1 | 13.7 | - | -
 AutoLoc (Ours)     | 35.8 | 29.0 | 21.2 | 13.4 | 5.8
 
-AN v1.2 train on the trainig set and test on the val set:
+AN v1.2 train on the trainig set and test on the val set (mAP):
 
 IoU     | 0.5| 0.55| 0.6| 0.65| 0.7| 0.75| 0.8| 0.85| 0.9| 0.95| Avg
 ---------|----|-----|---|-----|-----|---|---|---|---|---|--
