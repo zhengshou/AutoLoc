@@ -27,9 +27,9 @@ If you are willing to extract features by yourself, note that for experiments on
 
 Alternatively, we release our extracted features for public downloading.
 
-TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogA3Vr1Yacs8i9QTA) or [BaiduCloud](https://pan.baidu.com/s/1ussSNpI1nsXc7TpuT7inVA); 
+TH'14: [OneDrive](https://1drv.ms/u/s!ArlzSZKcWKazgogAIkkHsEwNaLfnjQ?e=VXyrm6) or [BaiduCloud](https://pan.baidu.com/s/1ussSNpI1nsXc7TpuT7inVA); 
 
-AN v1.2: OneDrive [split00](https://1drv.ms/u/s!ArlzSZKcWKazgp5FM6y2iobsjAhEJA), [split01](https://1drv.ms/u/s!ArlzSZKcWKazgp5GrwmauQHVSOvTvA) or BaiduCloud [split00-split11](https://pan.baidu.com/s/1AKiE0hm8g01bzTLRcWO8tw)
+AN v1.2: OneDrive [split00](https://1drv.ms/u/s!ArlzSZKcWKazgp5FH9y14C0l3VzXeg?e=BW4rPT), [split01](https://1drv.ms/u/s!ArlzSZKcWKazgp5GNP_PbOJGARsWwA?e=oYQ8pc) or BaiduCloud [split00-split11](https://pan.baidu.com/s/1AKiE0hm8g01bzTLRcWO8tw)
 
 Details of the above features:
 
